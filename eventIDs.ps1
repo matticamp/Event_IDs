@@ -1,4 +1,6 @@
-﻿<# PowerShell script created by Mattia Campagnano on Wed Jun 13 19:06:58 EDT 2018, to collect critical event IDs for recon or blue teaming purposes.
+﻿<# PowerShell script created by Mattia Campagnano on Wed Jun 13 19:06:58 EDT 2018, to collect critical event 
+    IDs from Event Viewer for recon or blue teaming purposes.
+    
     Based on an Eric Conrad's script, referenced by John Strand in the following YouTube video: https://www.youtube.com/watch?v=fEip9gl2MTA&t=1718s
 #>
 
