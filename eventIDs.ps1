@@ -9,6 +9,10 @@
 
 Get-WinEvent -FilterHashTable @{LogName="Security"; ID=4625,4674,4720,4722,4738,4732,1102} | Export-CSv C:\Security.csv
 
+<# Optional.
+   Use only if Sysmon is installed and running as a service
+   Get-WinEvent -FilterHashTable @{LogName="Microsoft-Windows-Sysmon/Operational"; ID=1,2,36,7,8,9} | Export-Csv C:\Sysmon.csv
+#>
 
 
 # Get all specified events IDs from the System log
