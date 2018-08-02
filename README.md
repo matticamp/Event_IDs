@@ -1,7 +1,5 @@
 # Event_IDs
-PowerShell script to quickly retrieve critical event IDs from Event Viewer.
-Based on an Eric Conrad's script, referenced by John Strand (Black Hills Cybersecurity) in the 
-following YouTube video: https://www.youtube.com/watch?v=fEip9gl2MTA&t=1718s
+PowerShell script to quickly retrieve critical event IDs from Event Viewer,based on an Eric Conrad's script, referenced by John Strand (Black Hills Cybersecurity) in the following YouTube video: https://www.youtube.com/watch?v=fEip9gl2MTA&t=1718s
 
 I added two contributions to the script:
 
