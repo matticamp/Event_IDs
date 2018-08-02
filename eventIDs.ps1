@@ -15,7 +15,8 @@ Get-WinEvent -FilterHashTable @{LogName="Security"; ID=4625,4674,4720,4722,4738,
 #>
 
 
-# Get all specified events IDs from the System log
+<# Get all specified events IDs from the System log
+#> My humble contribution I added is the Export-Csv command that imports the specified event IDs to a csv file. Enjoy!!
 
 Get-WinEvent -FilterHashTable @{LogName="System"; ID=7030,10000,100001,20001,20002,20003,24756,24577,24579} | Export-Csv C:\System.csv
 
